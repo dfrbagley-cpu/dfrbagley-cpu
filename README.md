@@ -1,12 +1,14 @@
 # David Bagley
 
-I work at the intersection of hospital operations, healthcare analytics, data governance and product design. I translate ambiguous healthcare reporting and workflow problems into governed definitions, reusable data processes and decision-ready tools.
+I work in clinical and operational analytics and healthcare decision support, with a focus on data and workflow architecture. I translate ambiguous healthcare reporting and workflow problems into governed definitions, reusable data processes and decision-ready tools.
 
 My responsibilities include problem framing, healthcare-domain modelling, product scope and prioritization, requirements, acceptance criteria, UX decisions and validation. I use AI-assisted development to accelerate implementation while retaining responsibility for the healthcare-domain decisions, product direction and validation.
 
 ## Professional context
 
-In my healthcare decision-support work, I have designed the end-to-end reporting architecture for four reporting systems—from workflow, clinical-documentation and data-capture design through governed definitions, R-based analytical logic, recurring reporting and decision-ready outputs. I define the fields, derived-data requirements, business rules, outputs and validation criteria. Epic analysts and other technical teams configure the underlying platforms from those specifications; I develop the analytical and reporting logic and validate the results.
+I advise managers and directors on decision support, data and workflow architecture, program management and implementation. I contribute to quality and operations committees, an ethics advisory committee, working groups and project steering committees, helping connect clinical needs, organizational priorities and technical constraints.
+
+In my healthcare decision-support work, I have designed the end-to-end reporting architecture for four reporting systems—from workflow, clinical-documentation and data-capture design through governed definitions, R-based analytical logic, recurring reporting and decision-ready outputs. I define the fields, derived-data requirements, business rules, outputs and validation criteria. Epic analysts and other technical teams configure the underlying platforms from those specifications; I write the R-based analytical and reporting logic, build, manage and maintain the resulting reporting pipelines and tools, and validate the results.
 
 I work across clinical, administrative, management and technical teams through planning, testing, training and ongoing improvement. My professional analytics work is primarily in R, with Python used selectively and SQL supporting data access and transformation.
 
