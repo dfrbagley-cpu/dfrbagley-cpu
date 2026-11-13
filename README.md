@@ -15,12 +15,18 @@ extract structure changed. No installation, account or upload is needed.
 | --- | --- | --- |
 | [Healthcare Reporting Toolkit](https://github.com/dfrbagley-cpu/healthcare-reporting-toolkit) | Find changes between CSV extracts before they affect a report; check reporting windows, capacity assumptions and result contracts. | [Live tools](https://dfrbagley-cpu.github.io/healthcare-reporting-toolkit/) · [Product decisions and tradeoffs](https://github.com/dfrbagley-cpu/healthcare-reporting-toolkit/blob/main/docs/CASE_STUDY.md) · [Tests and quality checks](https://github.com/dfrbagley-cpu/healthcare-reporting-toolkit/actions/workflows/ci.yml) |
 | [Health Data Edge Cases](https://github.com/dfrbagley-cpu/health-data-edge-cases) | Catch plausible but wrong results caused by duplicate versions, conflicting statuses, missing mappings, unequal periods and join inflation. | [Five cases, 72 expectations](https://dfrbagley-cpu.github.io/health-data-edge-cases/) · [Product decisions and tradeoffs](https://github.com/dfrbagley-cpu/health-data-edge-cases/blob/main/docs/CASE_STUDY.md) · [External contribution incorporated](https://github.com/dfrbagley-cpu/health-data-edge-cases/pull/8) |
+| [Clinic Capacity Planner](https://github.com/dfrbagley-cpu/clinic-capacity-planner) | Compare recorded clinic activity across opening-hour options, with explicit staffing and budget assumptions. | [Worked fictional example and setup](https://github.com/dfrbagley-cpu/clinic-capacity-planner#readme) · [Design decisions](https://github.com/dfrbagley-cpu/clinic-capacity-planner/blob/main/docs/PROJECT_OVERVIEW.md) · [Acceptance status](https://github.com/dfrbagley-cpu/clinic-capacity-planner/blob/main/docs/ACCEPTANCE.md) |
+| [Sleep & Behaviour Monitoring](https://github.com/dfrbagley-cpu/sleep-behaviour-monitoring) | Turn recorded observations into reviewable Excel and HTML reports, with explicit denominators and missing-data handling. | [Synthetic dashboard and demo](https://github.com/dfrbagley-cpu/sleep-behaviour-monitoring#readme) · [Engineering case study](https://github.com/dfrbagley-cpu/sleep-behaviour-monitoring/blob/main/docs/CASE_STUDY.md) · [Development-preview downloads](https://github.com/dfrbagley-cpu/sleep-behaviour-monitoring/releases/latest) |
 
 The Toolkit runs locally in the browser and includes a tested 100,000-row
 extract-audit scenario, exportable analysis receipts and automated accessibility
 checks. The edge-case suite verifies portable SQL in SQLite and DuckDB and
 cross-checks the answers independently in base R. The Toolkit consumes a pinned,
 versioned copy of those public contracts.
+
+The two R projects are development previews, not validated hospital deployments.
+Clinic Capacity Planner still requires workstation and workflow acceptance;
+Sleep & Behaviour Monitoring also has [reuse terms pending](https://github.com/dfrbagley-cpu/sleep-behaviour-monitoring/blob/main/LICENSING.md).
 
 **My role:** I define the problems, healthcare-domain rules, scope, requirements,
 acceptance criteria and user experience, and validate the results. I use
